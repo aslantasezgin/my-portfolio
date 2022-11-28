@@ -1,7 +1,7 @@
 import React from "react";
 import "./Slider.styles.css"
 import TypewriterComponent from "typewriter-effect";
-
+import CV from "../sezgin-aslantas.pdf"
 
 
 
@@ -28,14 +28,14 @@ const Slider = () => {
                  </div>      
 
                  <div className="slider-cv">
-                    <a href="#" data-text="DOWNLOAD CV">DOWNLOAD <span>CV</span> </a>
+                    <a href={CV} download={CV} data-text="DOWNLOAD CV">DOWNLOAD <span>CV</span> </a>
                  </div>
 
                  <div className="slider-contact">
                   <h3 data-aos="fade-right" data-aos-duration="2000" >Follow Me</h3>
-                    <a data-aos="fade-right" data-aos-duration="2000"  href="#"><i class="fa-brands fa-github"></i></a>
-                    <a data-aos="fade-right" data-aos-duration="2000" href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    <a data-aos="fade-right" data-aos-duration="2000" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a data-aos="fade-right" data-aos-duration="2000"  href="https://github.com/aslantasezgin" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a data-aos="fade-right" data-aos-duration="2000" href="https://www.linkedin.com/in/sezginaslantas/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a data-aos="fade-right" data-aos-duration="2000" href="https://twitter.com/aslantaasezginn" target="_blank"><i class="fa-brands fa-twitter"></i></a>
                  </div>     
             </div>
         </div>
