@@ -1,0 +1,139 @@
+.about{
+        width: 100%;
+        background: linear-gradient(95deg,#3e4246 0,#1d1e21 100%);
+        padding: 25px 0px;
+        border-bottom: 1px solid rgba(255,255,255,0.04);
+    }
+
+    .about-text{
+        overflow: visible!important;
+        width: 60%;
+        padding: 35px 0px;
+        text-align: left;
+        position: relative;
+        top: 40px;
+    }
+
+    .about-text h2{
+        color: #ffffff0c;
+        font-size: 100px;
+    }
+
+    .about-text p{
+        color: #8A9DA9;
+        font-size: 21px;
+        width: 100%;
+        font-weight: 300;
+        margin: 0px auto;
+        position: relative;
+        top: -65px;
+    }
+
+    .about-text p span{
+        font-weight: 400;
+        font-size: 23px;
+        color: rgb(228,29,86);
+    }
+
+    .about-links{
+        width: 100%;
+    }
+
+    .about-links ul{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        top: -25px;
+    }
+
+    .about-links ul li{
+        display: inline-block;
+        padding: 8px 14px;
+        background-color: #69696966;
+        border-radius: 50%;
+        margin: 0px 8px;
+        box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.14);
+    }
+
+    .about-links ul li:first-child{
+        border-radius: 7px;
+    }
+
+    .about-links ul li span{
+        color:#fff;
+        transition: all 0.3s;
+    }
+
+    .about-links ul li:first-child a{
+        color: #fff;
+        padding-left: 4px;
+    }
+
+    .about-links ul li a{
+        color: #fff;
+        transition: all 0.3s;
+    }
+
+    .about-links ul li:Hover span{
+        color: rgb(228,29,86);
+    }
+
+    .about-links ul li:hover a{
+        color: rgb(228,29,86);
+    }
+
+    .about-img{
+        width: 40%;
+    }
+
+    .about-img img{
+        width: 100%;
+        height: 450px;
+        position: relative;
+        top: -20px;
+        object-fit: contain;
+    }
+
+    @media(max-width:600px){
+        .about-text {
+            overflow: visible!important;
+            width: 100%;
+            padding: 15px 0px;
+            text-align: left;
+            position: relative;
+            top: 0px;
+        }
+
+        .about-text h2 {
+            color: #ffffff0c;
+            font-size: 60px;
+        }
+
+        .about-text p {
+            color: #8A9DA9;
+            font-size: 18px;
+            width: 100%;
+            font-weight: 300;
+            margin: 0px auto;
+            position: relative;
+            top: -35px;
+        }
+
+        .about-links ul {
+
+            top: -5px;
+        }
+
+        .about-img {
+            width: 100%;
+        }
+
+        .about-img img {
+            width: 100%;
+            height: 250px;
+            position: relative;
+            top: -20px;
+            object-fit: contain;
+        }
+    }
