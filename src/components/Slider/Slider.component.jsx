@@ -1,7 +1,7 @@
 import React from "react";
 import "./Slider.styles.css"
 import TypewriterComponent from "typewriter-effect";
-import CV from "../sezgin-aslantas.pdf"
+import CV from "../aslantas-sezgin-cv.pdf"
 
 
 
@@ -23,8 +23,8 @@ const Slider = () => {
             <div className="container-flex">
                
                 <div className="slider-content">
-                <p>Hello, I’m <span>Sezgin Aslantaş</span> , UX/UI Designer and
-               Front-end Developer Based in Istanbul.</p>    
+                <p>Hello, I’m <span>UX/UI Designer and
+               Front-end Developer</span> in Istanbul</p>    
                  </div>      
 
                  <div className="slider-cv">
