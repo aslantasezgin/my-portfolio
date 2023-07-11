@@ -34,6 +34,7 @@ const Portfolio = () => {
             <PortfolioCard img={"https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/636388b366855f53f95398d5/screenshot_2022-11-03-09-25-27-0000.png"} text={"Sermed Havuz ERP"} link1={"http://yonetim.sermedhavuz.com/"} link2={"https://github.com/aslantasezgin/monster-hunter"}></PortfolioCard>
 
             <PortfolioCard img={"https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/636388b366855f53f95398d5/screenshot_2022-11-03-09-25-27-0000.png"} text={"Club Admin"} link1={"https://clubadmin.sanalmagaza.com/"} link2={"https://github.com/aslantasezgin/monster-hunter"}></PortfolioCard>
+            <PortfolioCard img={"https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/636388b366855f53f95398d5/screenshot_2022-11-03-09-25-27-0000.png"} text={"Demo POS App"} link1={"https://demopos.netlify.app/home"} link2={"https://github.com/aslantasezgin/monster-hunter"}></PortfolioCard>
 
            
         </div>
