@@ -1,7 +1,7 @@
 import React from "react";
 import './About.styles.css';
 import AboutIMG from "./about.png"
-import CV from "../sezgin-aslantas.pdf"
+import CV from "../aslantas-sezgin-cv.pdf"
 
 
 const About = () => {
@@ -11,10 +11,10 @@ const About = () => {
 
         <div className="about-text" data-aos="fade-right">
             <h2>ABOUT ME</h2>
-            <p><span>Hello, I’m a Sezgin</span> , frontend-developer based on Istanbul.
-             I have rich experience in web site design & building
-            and customization. Also I am good at <span> html, css,
-            javascript, react, jquery, bootstrap, php. </span></p>
+            <p><span>Hello, I’m  Sezgin</span> , frontend-developer based on Istanbul.
+             My creative and analytical thinking skills, problem-solving abilities, and inclination towards teamwork enable me to work successfully on complex projects. I value collaboration and strive to maintain effective communication with team members.
+            </p>
+       <p> I am dedicated to continuously improving myself and remaining open to new technologies and trends. I aim to deliver high-quality and sustainable solutions in every project.</p>
 
             <div className="about-links">
                 <ul>
