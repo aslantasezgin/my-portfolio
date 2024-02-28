@@ -72,14 +72,7 @@ const Slider = () => {
             >
               <i class="fa-brands fa-linkedin"></i>
             </a>
-            <a
-              data-aos="fade-right"
-              data-aos-duration="2000"
-              href="https://twitter.com/aslantaasezginn"
-              target="_blank"
-            >
-              <i class="fa-brands fa-twitter"></i>
-            </a>
+
           </div>
         </div>
       </div>

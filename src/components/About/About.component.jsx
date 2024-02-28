@@ -18,10 +18,8 @@ const About = () => {
 
             <div className="about-links">
                 <ul>
-                    <li><span><i class="fa-solid fa-download"></i></span> <a href={CV} download={CV}>Download CV</a> </li>
                     <li><a href="https://github.com/aslantasezgin" target="_blank"><i class="fa-brands fa-github"></i></a></li>
                     <li><a href="https://www.linkedin.com/in/sezginaslantas/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="https://twitter.com/aslantaasezginn" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
                 </ul>
             </div>
         </div>
