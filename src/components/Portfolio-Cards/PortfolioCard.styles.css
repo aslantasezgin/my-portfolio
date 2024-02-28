@@ -22,9 +22,12 @@
     text-align: center;
 }
 
-.portfolio-card h2 a{
-    color: #3F4145;
-    transition: all 0.2s;
+.portfolio-card h2 a {
+    color: #3f4145;
+    transition: all .2s;
+    font-size: 56px;
+    text-align: center;
+    display: block;
 }
 
 .portfolio-card:hover h2 a{
