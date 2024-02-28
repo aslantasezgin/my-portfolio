@@ -25,11 +25,6 @@ const Header = () =>{
 
        const Menu = [
         {
-           id:0,
-           text:"Home",
-           link:"#Home"
-        },
-        {
            id:1,
            text:"About",
            link:"#About"
@@ -45,17 +40,11 @@ const Header = () =>{
            link:"#Portfolio"
 
         },
-         {
-           id:4,
-           text:"Contact",
-           link:"#Contact"
-
-        }
        ]     
 
     return(
     <>
-    <header className="header">
+    <header className="header" >
         <div className="container-flex">
     <div className="logo-box"> <img src={Logo}></img> </div>
     <div className="nav-list">

@@ -47,8 +47,8 @@ const Slider = () => {
           </div>
 
           <div className="slider-cv">
-            <a href={CV} download={CV} data-text="DOWNLOAD CV">
-              DOWNLOAD <span>CV</span>{" "}
+            <a href="mailto:aslantasezginn@gmail.com" >
+              Contact<span>Me</span>{" "}
             </a>
           </div>
 
