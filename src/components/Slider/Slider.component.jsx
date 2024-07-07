@@ -10,28 +10,25 @@ const Slider = () => {
         <TypewriterComponent
           onInit={(typewriter) => {
             typewriter
-              .typeString("<h2>Hello, I'm a Frontend Developer.</h2>")
+            .typeString("<h2>Transforming ideas into reality with code.</h2>") // Fikirleri koda dönüştürmek.
+            .pauseFor(2000)
+              .deleteAll()
+              .typeString("<h2>Creating seamless digital experiences.</h2>") // Kusursuz dijital deneyimler yaratmak.
               .pauseFor(2000)
               .deleteAll()
-              .typeString("<h2>I design awesome websites.</h2>")
+              .typeString("<h2>Innovating one project at a time.</h2>") // Her projede yenilik yapmak.
               .pauseFor(2000)
               .deleteAll()
-              .typeString("<h2>I prioritize user experience.</h2>")
+                .typeString("<h2>Empowering brands through technology.</h2>") // Markaları teknolojiyle güçlendirmek.
+         
               .pauseFor(2000)
               .deleteAll()
-              .typeString(
-                "<h2>I create modern and user-friendly interfaces.</h2>"
-              )
+                .typeString("<h2>Building user-friendly interfaces with passion.</h2>") // Tutkuyla kullanıcı dostu arayüzler oluşturmak.
+              
               .pauseFor(2000)
               .deleteAll()
-              .typeString(
-                "<h2>Passionate about technology, I'm a constant learner.</h2>"
-              )
-              .pauseFor(2000)
-              .deleteAll()
-              .typeString(
-                "<h2>I think project-oriented and provide solutions.</h2>"
-              )
+                .typeString("<h2>Delivering sustainable solutions with every line of code.</h2>") // Her satır kodla sürdürülebilir çözümler sunmak.
+              
               .pauseFor(2000)
               .start();
           }}

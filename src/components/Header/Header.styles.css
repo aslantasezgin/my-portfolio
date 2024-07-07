@@ -8,6 +8,10 @@
     transition: all 0.3s;
 }
 
+.header .container-flex{
+    align-items: flex-start;
+}
+
 .is-sticky {
     background-color: #10101086;
     padding: 0px 0px;

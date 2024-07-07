@@ -22,18 +22,11 @@ const Portfolio = () => {
             img={
               "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/636388b366855f53f95398d5/screenshot_2022-11-03-09-25-27-0000.png"
             }
-            text={"Daikin Pod"}
-            link1={"https://daikinpod.com/"}
+            text={"Pegasus"}
+            link1={"https://flypgs.com/"}
             link2={"https://github.com/aslantasezgin/monster-hunter"}
           ></PortfolioCard>
-          <PortfolioCard
-            img={
-              "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/636388b366855f53f95398d5/screenshot_2022-11-03-09-25-27-0000.png"
-            }
-            text={"Airfel Plus"}
-            link1={"https://airfelplus.com/"}
-            link2={"https://github.com/aslantasezgin/monster-hunter"}
-          ></PortfolioCard>
+
           <PortfolioCard
             img={
               "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/636388b366855f53f95398d5/screenshot_2022-11-03-09-25-27-0000.png"
@@ -42,15 +35,9 @@ const Portfolio = () => {
             link1={"https://hayatsu.com.tr/"}
             link2={"https://github.com/aslantasezgin/monster-hunter"}
           ></PortfolioCard>
-          <PortfolioCard
-            img={
-              "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/636388b366855f53f95398d5/screenshot_2022-11-03-09-25-27-0000.png"
-            }
-            text={"Pegasus"}
-            link1={"https://flypgs.com/"}
-            link2={"https://github.com/aslantasezgin/monster-hunter"}
-          ></PortfolioCard>
-          <PortfolioCard
+
+
+<PortfolioCard
             img={
               "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/636388b366855f53f95398d5/screenshot_2022-11-03-09-25-27-0000.png"
             }
@@ -58,10 +45,57 @@ const Portfolio = () => {
             link1={"https://www.anadolusigorta.com.tr/"}
             link2={"https://github.com/aslantasezgin/monster-hunter"}
           ></PortfolioCard>
+
+          <PortfolioCard
+            img={
+              "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/636388b366855f53f95398d5/screenshot_2022-11-03-09-25-27-0000.png"
+            }
+            text={"Paribu Cineverse"}
+            link1={"https://www.paribucineverse.com/"}
+            link2={"https://github.com/aslantasezgin/monster-hunter"}
+          ></PortfolioCard>
+
+<PortfolioCard
+            img={
+              "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/636388b366855f53f95398d5/screenshot_2022-11-03-09-25-27-0000.png"
+            }
+            text={"Yapi Kredi Nl"}
+            link1={"https://www.yapikredi.nl/"}
+            link2={"https://github.com/aslantasezgin/monster-hunter"}
+          ></PortfolioCard>
+
+
+          <PortfolioCard
+            img={
+              "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/636388b366855f53f95398d5/screenshot_2022-11-03-09-25-27-0000.png"
+            }
+            text={"Daikin Pod"}
+            link1={"https://daikinpod.com/"}
+            link2={"https://github.com/aslantasezgin/monster-hunter"}
+          ></PortfolioCard>
+
+      <PortfolioCard
+            img={
+              "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/636388b366855f53f95398d5/screenshot_2022-11-03-09-25-27-0000.png"
+            }
+            text={"Airfel Plus"}
+            link1={"https://airfelplus.com/"}
+            link2={"https://github.com/aslantasezgin/monster-hunter"}
+          ></PortfolioCard>
+
+
+
           <PortfolioCard
             img={MakroIMG}
             text={"Makroser Tekstil"}
             link1={"https://www.makrosertekstil.com/"}
+            link2={null}
+          ></PortfolioCard>
+
+<PortfolioCard
+            img={MakroIMG}
+            text={"Havuz.com.tr"}
+            link1={"https://www.havuz.com.tr/"}
             link2={null}
           ></PortfolioCard>
           <PortfolioCard
@@ -94,20 +128,8 @@ const Portfolio = () => {
             link1={"https://www.kolezyummimarlik.com/"}
             link2={null}
           ></PortfolioCard>
-          <PortfolioCard
-            img={Getir}
-            text={"Getir UI"}
-            link1={"https://getir-ui.netlify.app/"}
-            link2={"https://github.com/aslantasezgin/getir_ui"}
-          ></PortfolioCard>
-          <PortfolioCard
-            img={
-              "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/636388b366855f53f95398d5/screenshot_2022-11-03-09-25-27-0000.png"
-            }
-            text={"Todo"}
-            link1={" https://todolistapp10.netlify.app/"}
-            link2={"https://github.com/aslantasezgin/monster-hunter"}
-          ></PortfolioCard>
+
+
         </div>
         <div className="portfolio-img" data-aos="fade-left">
           <img src={pIMG} alt="" />

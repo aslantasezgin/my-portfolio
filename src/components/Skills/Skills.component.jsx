@@ -14,12 +14,16 @@ const Skills = () => {
             <h2>SKILLS</h2>
         <SkillsCard icon={"fa-brands fa-html5"} text={"HTML5"}></SkillsCard>
         <SkillsCard icon={"fa-brands fa-css3"} text={"CSS3"}></SkillsCard>
-        <SkillsCard icon={"fa-brands fa-js"} text={"Javascript"}></SkillsCard>
-        <SkillsCard icon={"fa-brands fa-react"} text={"React"}></SkillsCard>
-        <SkillsCard icon={"fa-brands fa-php"} text={"PHP"}></SkillsCard>
-        <SkillsCard icon={"fa-solid fa-database"} text={"MySQL"}></SkillsCard>
         <SkillsCard icon={"fa-brands fa-bootstrap"} text={"Bootstrap"}></SkillsCard>
-        <SkillsCard icon={"fa-brands fa-git"} text={"Git"}></SkillsCard>
+        <SkillsCard icon={"fa-solid fa-code"} text={"Tailwind"}></SkillsCard>
+        <SkillsCard icon={"fa-brands fa-js"} text={"Javascript"}></SkillsCard>
+        <SkillsCard icon={"fa-solid fa-code"} text={"Jquery"}></SkillsCard>
+        <SkillsCard icon={"fa-brands fa-react"} text={"React"}></SkillsCard>
+        <SkillsCard icon={"fa-solid fa-code"} text={"TypeScript"}></SkillsCard>
+        <SkillsCard icon={"fa-brands fa-react"} text={"Next.js"}></SkillsCard>
+        <SkillsCard icon={"fa-brands fa-node"} text={"Node.Js"}></SkillsCard>
+        <SkillsCard icon={"fa-solid fa-database"} text={"MySQL"}></SkillsCard>
+        <SkillsCard icon={"fa-solid fa-database"} text={"MongoDB"}></SkillsCard>
 
 
 
